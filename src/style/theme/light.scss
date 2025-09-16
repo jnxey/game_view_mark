@@ -1,0 +1,15 @@
+.theme-light {
+  --el-color-warning: #fb9702;
+
+  --el-color-danger: #f34d4d;
+  --el-color-error: #f34d4d;
+
+  --el-text-color-placeholder: var(--el-text-color-regular);
+
+  // custom
+  --el-primary-text-color: var(--el-color-white);
+
+  .el-select .el-tag.el-tag--info {
+    --el-tag-text-color: var(--el-text-color-regular);
+  }
+}

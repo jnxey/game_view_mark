@@ -1,0 +1,26 @@
+$header-item-size: 40px;
+
+.common-layout {
+  .header-wrap {
+    .header-item {
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      padding: 0 15px;
+      outline: none;
+      &:hover {
+        background-color: var(--el-color-primary-light-9);
+        &:after {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 2px;
+          background-color: var(--el-color-primary);
+        }
+      }
+    }
+  }
+}

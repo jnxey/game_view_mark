@@ -1,0 +1,37 @@
+{
+  "title": "Membership System",
+  "member_login": {
+    "title": "Member Login",
+    "account": "Member No.",
+    "password": "Password",
+    "btn_login": "Login now",
+    "tips_account": "Please enter your Membership No.",
+    "tips_password": "Please enter your password"
+  },
+  "header_logout": {
+    "title": "Logout"
+  },
+  "header_back": {
+    "title": "Back"
+  },
+  "member_bet_list": {
+    "title": "Bet page",
+    "bet_id": "Bet ID",
+    "currency": "Currency",
+    "kind_no": "Bet item",
+    "kind_sub_no": "Sub-bet item",
+    "bet_result": "Opening result",
+    "bet_profit_loss": "Bet profit",
+    "amount": "Total bet",
+    "rake": "Rake",
+    "code_washing": "Code washing amount",
+    "is_close": "Whether to receive code",
+    "is_cash_compensation": "Cash compensation code",
+    "current_info": "Current information",
+    "gwm_time": "Compensation time",
+    "bet_currency_config": "Bet currency",
+    "bet_kind_amount": "Bet amount",
+    "bet_bonus_amount": "Bonus amount",
+    "bet_bonus_profit": "Bonus income"
+  }
+}

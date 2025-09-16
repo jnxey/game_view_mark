@@ -1,0 +1,17 @@
+{
+  "title": "Personal Center",
+  "avatar": "Album",
+  "account": "Account",
+  "name": "Name",
+  "password_old": "Current password",
+  "password": "New password",
+  "password_confirm": "Confirm password",
+  "placeholder_name": "Please enter a name",
+  "placeholder_password": "Required when changing password, leave blank when not changing password",
+  "field_check_name": "Please enter a name",
+  "field_check_password_old": "Please enter current password",
+  "field_check_password": "Please enter new password",
+  "field_check_password_confirm": "Please enter a confirmed password",
+  "field_check_password_compare": "The two passwords are different",
+  "field_check_password_length": "The password length is between 6 and 32"
+}

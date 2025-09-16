@@ -1,0 +1,45 @@
+{
+  "title": "Points Management",
+  "consume_name": {
+    "title": "Consumption name",
+    "name": "Consumption name",
+    "amount": "Single consumption points",
+    "placeholder_name": "Please enter consumption name",
+    "placeholder_amount": "Please enter single consumption points",
+    "field_check_name": "Please enter consumption name",
+    "field_check_amount": "Please enter single consumption points",
+    "title_add": "Add consumption name",
+    "title_edit": "Edit consumption name"
+  },
+  "detail": {
+    "title": "Points change details",
+    "points": "Points change",
+    "consume_name": "Consumption name",
+    "remark": "Operation description"
+  },
+  "summary": {
+    "title": "Member Points",
+    "nickname": "Nickname",
+    "total_points": "Current points",
+    "expire_at": "Expiration days",
+    "points": "Points",
+    "expire_time": "Expiration time",
+    "day": "Day",
+    "label_users": "Number of members",
+    "label_count": "Points count",
+    "label_top_up": "Points recharge",
+    "label_deduct": "Points deduction",
+    "label_invalid_set": "Expiration setting",
+    "btn_confirm_deduct": "Confirm deduction",
+    "btn_confirm_invalid_set": "Confirm setting",
+    "btn_confirm_top_up": "Confirm recharge",
+    "tips_enter_points": "Please enter points",
+    "tips_enter_invalid_set": "Please enter expiration days",
+    "tips_confirm_deduct": "Confirm deduction {amount} points from [{username}]",
+    "tips_confirm_invalid_set": "Confirm setting {username} points expiration time is {expire_at} days",
+    "tips_confirm_top_up": "Confirm recharge {amount} points to [{username}]",
+    "deduct_success": "Deduction successful",
+    "invalid_set_success": "Set successfully",
+    "top_up_success": "Top up successfully"
+  }
+}

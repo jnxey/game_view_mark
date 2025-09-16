@@ -1,0 +1,31 @@
+{
+  "title": "组织",
+  "department": {
+    "title": "部门",
+    "name": "部门名称",
+    "parent": "上级部门",
+    "leader": "负责人",
+    "mobile": "联系电话",
+    "status": "部门状态",
+    "placeholder_name": "请输入部门名称",
+    "placeholder_parent": "请选择上级部门",
+    "placeholder_leader": "请输入负责人姓名",
+    "placeholder_mobile": "请输入联系电话",
+    "field_check_name": "请输入部门名称",
+    "field_check_parent": "请选择上级部门",
+    "field_check_mobile": "请输入联系电话",
+    "title_add": "新增部门",
+    "title_edit": "编辑部门"
+  },
+  "job": {
+    "title": "岗位",
+    "code": "岗位编码",
+    "name": "岗位名称",
+    "placeholder_name": "请输入岗位名称",
+    "placeholder_code": "请输入岗位编码",
+    "field_check_name": "请输入岗位名称",
+    "field_check_code": "请输入岗位编码",
+    "title_add": "新增岗位",
+    "title_edit": "编辑岗位"
+  }
+}

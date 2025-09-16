@@ -1,0 +1,99 @@
+{
+  "title": "Profit Statement",
+  "check": {
+    "title": "Counting code details",
+    "check_time": "Counting time",
+    "work_no": "Code counting person",
+    "chip_inc": "Increase code",
+    "chip_dec": "Decrease code",
+    "manual_value": "Manual code counting number",
+    "system_value": "System code counting number",
+    "gap": "Gap"
+  },
+  "check_inc_dec_log": {
+    "title": "Increase/Decrease code details",
+    "type": "Type",
+    "number": "Amount"
+  },
+  "close": {
+    "title": "Recover code details",
+    "close_time": "Recover time",
+    "work_no": "Recycler",
+    "sm_number": "Recover No.",
+    "gap": "Recover gap",
+    "chip_inc": "Increase code",
+    "chip_dec": "Decrease code",
+    "inc_dec_count": "Increase and decrease code number",
+    "code_washing": "Code washing amount",
+    "code_washing_fee": "Code washing fee",
+    "label_bind_close": "Whether the recover number is included in the increase/decrease code",
+    "btn_check_detail": "Counting details"
+  },
+  "search_box": {
+    "title": "Search Bar",
+    "is_code_washing": "Whether to open the code washing fee",
+    "is_shares": "Shares/rebates",
+    "is_exclude_close": "Received code bets",
+    "is_user_income_settlement": "Membership Benefits",
+    "include_cost": "Including expenses"
+  },
+  "table_col": {
+    "title": "Table fields",
+    "date": "Date",
+    "nickname": "Nickname",
+    "total_amount": "Total bet",
+    "total_rake": "Rake",
+    "total_code_washing": "Code washing amount",
+    "total_code_washing_fee": "Code washing fee",
+    "total_bet_profit_loss": "Profit of bet",
+    "total_code_washing_profit_loss": "Code washing fee + bet",
+    "total_cost": "Expenditures",
+    "total_code_washing_profit_loss_cost": "Card washing fee + bet + expenditure",
+    "total_user_profit_loss": "Member income (share/rebate)",
+    "total_company_profit_loss": "Company income (share/rebate)",
+    "total_bonus_profit_loss": "Bonus profit",
+    "total_net_earning": "Net income",
+    "total_shareholder_net_earning": "Net income attributable to shareholders",
+    "total_company_net_earning": "Net income attributable to the company"
+  },
+  "table": {
+    "title": "Table profit",
+    "title_user": "Member profit on the table"
+  },
+  "user": {
+    "title": "Member Profit",
+    "agent_top": "Level 1 agent",
+    "back": "Back",
+    "btn_settler": "Member settlement",
+    "btn_detail": "Check the details",
+    "tips_level_top_settler": "Only level 1 agents can perform member settlement",
+    "tips_is_user_income_settlement_settler": "Please click [Membership Benefits] to filter the conditions, select [No], and click to query",
+    "tips_no_close": "Uncollected code data cannot be settled, today's code collection time filters uncollected code data",
+    "tips_confirm_settler": "Confirm the settlement member [{username}]'s profits in the {start} to {end} time period",
+    "tips_confirm_print": "Successful settlement, print receipt directly",
+    "tips_confirm_settler_simple": "Confirm the earnings of settlement members",
+    "count": "Total",
+    "person": "Total {num} people",
+    "title_bet": "Member bet details",
+    "btn_expand_open": "Level",
+    "btn_expand_close": "Level",
+    "btn_expand_currency_open": "Currency",
+    "btn_expand_currency_close": "Currency",
+    "btn_expand_currency_self_tips": "View oneself"
+  },
+  "user_settler_log": {
+    "title": "Member Settlement Details{suffix}",
+    "date": "Date",
+    "total_amount": "Total bet",
+    "total_bet_profit_loss": "Bet profit",
+    "total_code_washing": "Washing code amount",
+    "total_code_washing_fee": "Washing code fee",
+    "total_user_profit_loss": "Member Profit",
+    "total_user_profit_loss_print": "Member Net Profit",
+    "sign": "Signature",
+    "settle_time": "Settlement Time",
+    "btn_print": "Print Receipt",
+    "title_print": "Member Settlement Sheet",
+    "tips_print_footer": "Welcome to visit again"
+  }
+}

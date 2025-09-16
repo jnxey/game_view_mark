@@ -1,0 +1,23 @@
+{
+  "title": "大屏",
+  "bonus": {
+    "title": "彩金大屏",
+    "empty_tips": "还未配置彩金大屏",
+    "to_set_btn": "前往彩金类型设置",
+    "congratulations": "恭喜",
+    "hit_prize": "中奖",
+    "tips_toggle_voice": "因权限限制，是否手动打开声音"
+  },
+  "road": {
+    "title": "路单大屏",
+    "empty_tips": "此游戏无大屏展示",
+    "title_count": "统计信息",
+    "table_name": "台号",
+    "boot_number": "靴号",
+    "round_number": "局号"
+  },
+  "main": {
+    "title": "游戏大屏",
+    "continue": "以后直接进入该页"
+  }
+}

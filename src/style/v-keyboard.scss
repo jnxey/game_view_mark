@@ -1,0 +1,35 @@
+.v-keyboard-wrap {
+  position: relative;
+
+  input {
+    box-sizing: border-box;
+  }
+
+  .v-keyboard-cursor {
+    position: absolute;
+    width: 2px;
+    height: 18px;
+    background-color: var(--el-color-primary);
+    animation: v-keyboard-blink 1s infinite;
+    display: none;
+    z-index: 10;
+  }
+
+  &.v-keyboard-cursor-show {
+    .v-keyboard-cursor {
+      display: block;
+    }
+  }
+}
+
+@keyframes v-keyboard-blink {
+  0%{
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

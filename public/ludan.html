@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>百家乐路单</title>
+  <style>
+    /* style.css */
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .controls {
+      margin: 20px 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 0 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(6, 40px); /* 每行6格 */
+      gap: 5px;
+      justify-content: center;
+      margin: 20px auto;
+    }
+
+    .grid div {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #ccc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .banker {
+      background-color: red;
+      color: white;
+    }
+
+    .player {
+      background-color: blue;
+      color: white;
+    }
+
+    .tie {
+      background-color: green;
+      color: white;
+    }
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>百家乐路单</h1>
+
+  <!-- 操作按钮 -->
+  <div class="controls">
+    <button id="banker">庄胜</button>
+    <button id="player">闲胜</button>
+    <button id="tie">和局</button>
+  </div>
+
+  <!-- 路单显示区域 -->
+  <div class="roadmap">
+    <h2>珠盘路</h2>
+    <div class="grid" id="bead-road"></div>
+
+    <h2>大路</h2>
+    <div class="grid" id="big-road"></div>
+  </div>
+</div>
+
+<script>
+  // script.js
+
+  // 获取按钮和容器
+  const bankerBtn = document.getElementById('banker');
+  const playerBtn = document.getElementById('player');
+  const tieBtn = document.getElementById('tie');
+  const beadRoad = document.getElementById('bead-road');
+  const bigRoad = document.getElementById('big-road');
+
+  // 全局变量
+  let bigRoadMatrix = []; // 大路记录的二维数组
+  let currentColumn = 0; // 当前大路的列号
+  let currentRow = 0; // 当前大路的行号
+
+  // 添加结果到珠盘路
+  function addToBeadRoad(resultClass) {
+    const cell = document.createElement('div');
+    cell.className = resultClass;
+    beadRoad.appendChild(cell);
+  }
+
+  // 添加结果到大路
+  function addToBigRoad(resultClass) {
+    if (!bigRoadMatrix[currentColumn]) {
+      bigRoadMatrix[currentColumn] = [];
+    }
+
+    // 如果当前列没有内容，或者当前列已经下满，则换到新列
+    if (bigRoadMatrix[currentColumn][currentRow] || bigRoadMatrix[currentColumn].length >= 6) {
+      currentColumn++;
+      currentRow = 0;
+      bigRoadMatrix[currentColumn] = [];
+    }
+
+    // 在大路矩阵中添加结果
+    bigRoadMatrix[currentColumn][currentRow] = resultClass;
+
+    // 清空大路重新渲染
+    renderBigRoad();
+  }
+
+  // 渲染大路
+  function renderBigRoad() {
+    bigRoad.innerHTML = ''; // 清空大路
+    for (let col = 0; col < bigRoadMatrix.length; col++) {
+      for (let row = 0; row < (bigRoadMatrix[col] || []).length; row++) {
+        const cell = document.createElement('div');
+        cell.className = bigRoadMatrix[col][row];
+        bigRoad.appendChild(cell);
+      }
+    }
+  }
+
+  // 按钮事件绑定
+  bankerBtn.addEventListener('click', () => {
+    addToBeadRoad('banker');
+    addToBigRoad('banker');
+  });
+
+  playerBtn.addEventListener('click', () => {
+    addToBeadRoad('player');
+    addToBigRoad('player');
+  });
+
+  tieBtn.addEventListener('click', () => {
+    addToBeadRoad('tie');
+    addToBigRoad('tie');
+  });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<template>
+  <gv-popup ref="popupRef" :title="$t('common.modify_btn')" :async="true" width="500px" @confirm="handleSubmit" @close="handleClose">
+    <div class="edit-gwm" v-if="fromInfo">
+      <el-form ref="formRef" label-width="100px">
+        <el-form-item :label="$t('game_data.bet.current_info')">
+          <span class="text-placeholder mr-4">{{ $t('common.table_no') }}</span>
+          <span class="mr-8">{{ fromInfo.table_name }},</span>
+          <span class="text-placeholder mr-4">{{ $t('common.boot_no') }}</span>
+          <span class="mr-8">{{ fromInfo.boot_number }}</span>
+        </el-form-item>
+        <el-form-item :label="$t('common.round_no')">
+          <div class="flex-row align-center w-full">
+            <select-round-btn
+              v-model:round-number="formData.round_number"
+              v-model:open-id="formData.open_id"
+              :from-info="fromInfo"
+              custom-class="flex-1 mr-8"
+            />
+            <gv-bet-result-show :open-id="formData.open_id" :size="32" />
+          </div>
+        </el-form-item>
+        <el-form-item :label="$t('common.user_no')">
+          <gv-select-user-inline ref="userInlineRef" v-model="formData.user_id" :clearable="false" :placeholder="$t('common.user_no')" />
+        </el-form-item>
+        <el-form-item :label="$t('game_data.bet.kind_no')">
+          <el-radio-group v-model="formData.gameKindMainId">
+            <el-radio class="custom-radio mb-4" v-for="item in gameKindFirst" :value="item.id">
+              {{ $ti(item.name) }}
+            </el-radio>
+          </el-radio-group>
+        </el-form-item>
+        <el-form-item :label="$t('game_data.bet.bet_currency_config')">
+          <gv-select-currency-config-radio class="w-full" v-model="formData.currency_config_id" :options="currencyConfig" />
+        </el-form-item>
+        <el-form-item :label="$t('game_data.bet.bet_kind_amount')">
+          <el-input-number class="flex-1" v-model="formData.amount" :min="0" :max="Number.MAX_SAFE_INTEGER" controls-position="right" />
+        </el-form-item>
+      </el-form>
+    </div>
+  </gv-popup>
+  <table-bonus ref="tableBonusRef" />
+</template>
+<script setup>
+import GvPopup from '@/components/gv-popup/index.vue';
+import { computed, nextTick, provide, reactive, shallowRef, unref } from 'vue';
+import { isEmpty, isNumber, mappingArrayToObject, resolveServerTime, syncObjectData } from '@/tools';
+import { useBetBase } from '@/views/scene/enter/_models/bet-base';
+import { useBetBaseFilter } from '@/views/scene/enter/_models/bet-filter';
+import layer from '@/tools/layer';
+import { GAME_KIND_CALC } from '@/values';
+import GvSelectCurrencyConfigRadio from '@/components/gv-select-currency/config-radio.vue';
+import { betBonusModify, betGwm, betModify } from '@/api/game-data/bet';
+import TableBonus from '@/views/scene/enter/_components/_components/table-bonus.vue';
+import { checkBonusAmountBySetting } from '@/tools/bonus';
+import { $t } from '@/lang/i18n';
+import { $ti } from '@/lang/input';
+import SelectRoundBtn from '@/views/game-data/bet/_components/select-round-btn.vue';
+import GvSelectUserInline from '@/components/gv-select-user/inline.vue';
+import GvBetResultShow from '@/components/gv-bet-result-show/index.vue';
+
+const emit = defineEmits(['success', 'close']);
+const popupRef = shallowRef();
+const fromInfo = shallowRef();
+const tableBonusRef = shallowRef();
+
+const tempData = {
+  id: null,
+  open_id: null,
+  user_id: null,
+  round_number: null,
+  gameKindMainId: null,
+  currency_config_id: null,
+  amount: null
+};
+const formData = reactive({ ...tempData });
+
+const tableId = computed(() => fromInfo.value?.table_id);
+
+// 基础信息
+const {
+  tableInfo,
+  gameConfig,
+  gameKind,
+  gameCompose,
+  currencyConfig,
+  bonusList,
+  bonusSetting,
+  refreshTableInfo,
+  refreshGameConfig,
+  refreshGameKind,
+  refreshKindCompose,
+  refreshCurrencyConfig,
+  refreshBonusList
+} = useBetBase(() => tableId.value);
+
+// 获取过滤的数据
+const { gameKindFilter, subCalcTypeMap } = useBetBaseFilter(
+  () => gameKind.value,
+  () => gameConfig.value,
+  () => gameCompose.value
+);
+
+const gameKindMap = computed(() => mappingArrayToObject(gameKind.value));
+
+const gameKindSub = computed(() => {
+  const mainId = formData.gameKindMainId;
+  const subList = gameKindFilter.value?.filter((val) => !!subCalcTypeMap.value[val.id]);
+  return subList.filter((val) => {
+    return mainId === subCalcTypeMap.value[val.id];
+  });
+});
+
+// 获取顶级选项
+const gameKindFirst = computed(() => {
+  return gameKindFilter.value?.filter((val) => !subCalcTypeMap.value[val.id]);
+});
+
+const open = async (info) => {
+  fromInfo.value = info;
+  await nextTick();
+  layer.loading();
+  await refreshTableInfo();
+  await refreshGameConfig();
+  await refreshGameKind();
+  await refreshKindCompose();
+  await refreshCurrencyConfig();
+  await refreshBonusList();
+  layer.closeLoading();
+  const { bet_id, open_id, user_id, is_nn_win, currency_config_id, amount, round_number, bonus_amount, bonus_profit_loss, bonus_result } = info;
+  syncObjectData(formData, {
+    ...tempData,
+    id: bet_id,
+    open_id,
+    user_id,
+    is_nn_win,
+    round_number,
+    currency_config_id,
+    amount: !!Number(amount) ? Number(amount) : null
+  });
+  formData.gameKindMainId = info.game_kind_id;
+  popupRef.value?.open();
+};
+
+// 打开彩金选中
+const openBonusSelect = () => {
+  tableBonusRef.value?.open(formData.bonus_id, (rowId) => {
+    formData.bonus_id = rowId;
+  });
+};
+
+// 判断是否清空彩金结果
+const canClearBonusResult = () => {
+  if (!formData.bonus) formData.bonus_id = null;
+};
+
+// 提交
+const handleSubmit = async () => {
+  const setting = unref(bonusSetting);
+  const realMainId = formData.gameKindMainId;
+  const checkBonus = !!formData.bonus ? checkBonusAmountBySetting(Number(formData.bonus), setting) : true;
+  if (!realMainId) return layer.msgError($t('game_data.bet.field_check_kind_no'));
+  if (!checkBonus)
+    return layer.msgError($t('game_data.bet.field_check_bonus', { icon: setting.icon, min: setting.mini_amount, max: setting.max_multiple }));
+  await layer.confirm($t('game_data.bet.tips_edit_confirm'));
+  const { id, open_id, user_id, is_nn_win, currency_config_id, amount, round_number } = formData;
+  const params = {
+    id,
+    open_id,
+    user_id,
+    game_kind_id: realMainId,
+    is_nn_win,
+    currency_config_id,
+    amount: isNumber(amount) ? amount : 0,
+    round_number
+  };
+  layer.loading();
+  await betModify(params);
+  layer.closeLoading();
+  layer.msgSuccess($t('common.save_success'));
+  popupRef.value?.close();
+  emit('success');
+};
+
+// 取消
+const handleClose = () => {};
+
+defineExpose({ open });
+
+provide('bonusList', bonusList);
+</script>
+<style scoped lang="scss">
+.currency-border {
+  min-height: 32px;
+  border-bottom-right-radius: var(--el-border-radius-base);
+  border-bottom-left-radius: var(--el-border-radius-base);
+  border: 1px solid var(--el-border-color);
+  border-top: none;
+}
+</style>

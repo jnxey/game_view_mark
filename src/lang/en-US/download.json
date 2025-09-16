@@ -1,0 +1,8 @@
+{
+  "title": "Download",
+  "pc": {
+    "title": "Download PC App",
+    "build_btn": "Generate installation package",
+    "tips_can_not": "This platform does not support installation package generation for the time being"
+  }
+}

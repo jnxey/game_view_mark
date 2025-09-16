@@ -1,0 +1,17 @@
+{
+  "title": "个人中心",
+  "avatar": "相册",
+  "account": "账号",
+  "name": "名称",
+  "password_old": "当前密码",
+  "password": "新的密码",
+  "password_confirm": "确定密码",
+  "placeholder_name": "请输入名称",
+  "placeholder_password": "修改密码时必填, 不修改密码时留空",
+  "field_check_name": "请输入名称",
+  "field_check_password_old": "请输入当前密码",
+  "field_check_password": "请输入新的密码",
+  "field_check_password_confirm": "请输入确定密码",
+  "field_check_password_compare": "两次输入的密码不一样",
+  "field_check_password_length": "密码长度在6到32之间"
+}

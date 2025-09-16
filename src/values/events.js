@@ -1,0 +1,11 @@
+export const EVENTS_LOG_POPUP_REFRESH = 'EVENTS_LOG_POPUP_REFRESH'; // 日志刷新
+
+export const EVENTS_SCENE_OPENING_SET = 'EVENTS_SCENE_OPENING_SET'; // 现场录入开牌设置
+
+export const EVENTS_SCENE_AI_SCAN_SET = 'EVENTS_SCENE_AI_SCAN_SET'; // 现场录入AI识牌设置
+
+export const EVENTS_SCENE_BONUS_SELECT = 'EVENTS_SCENE_BONUS_SELECT'; // 现场录入彩金选择
+
+export const EVENTS_SCENE_PUSH_DESK = 'EVENTS_SCENE_PUSH_DESK'; // 现场录入输入事件
+
+export const EVENTS_CHAT_NEW_MESSAGE = 'EVENTS_CHAT_NEW_MESSAGE'; // 广播室有新消息

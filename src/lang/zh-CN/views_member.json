@@ -1,0 +1,37 @@
+{
+  "title": "会员系统",
+  "member_login": {
+    "title": "会员登录",
+    "account": "会员号",
+    "password": "密码",
+    "btn_login": "立即登录",
+    "tips_account": "请输入会员号",
+    "tips_password": "请输入密码"
+  },
+  "header_logout": {
+    "title": "退出登录"
+  },
+  "header_back": {
+    "title": "返回"
+  },
+  "member_bet_list": {
+    "title": "注单页",
+    "bet_id": "注单ID",
+    "currency": "货币",
+    "kind_no": "投注项",
+    "kind_sub_no": "子投注项",
+    "bet_result": "开牌结果",
+    "bet_profit_loss": "注单盈亏",
+    "amount": "总压",
+    "rake": "抽水",
+    "code_washing": "洗码量",
+    "is_close": "是否收码",
+    "is_cash_compensation": "现金赔码",
+    "current_info": "当前信息",
+    "gwm_time": "补录时间",
+    "bet_currency_config": "投注币种",
+    "bet_kind_amount": "投注金额",
+    "bet_bonus_amount": "彩金金额",
+    "bet_bonus_profit": "彩金收益"
+  }
+}

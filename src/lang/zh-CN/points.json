@@ -1,0 +1,45 @@
+{
+  "title": "积分管理",
+  "consume_name": {
+    "title": "消费名称",
+    "name": "消费名称",
+    "amount": "单次消费积分",
+    "placeholder_name": "请输入消费名称",
+    "placeholder_amount": "请输入单次消费积分",
+    "field_check_name": "请输入消费名称",
+    "field_check_amount": "请输入单次消费积分",
+    "title_add": "新增消费名称",
+    "title_edit": "编辑消费名称"
+  },
+  "detail": {
+    "title": "积分变动明细",
+    "points": "积分变化",
+    "consume_name": "消费名称",
+    "remark": "操作描述"
+  },
+  "summary": {
+    "title": "会员积分",
+    "nickname": "昵称",
+    "total_points": "当前积分",
+    "expire_at": "过期天数",
+    "points": "积分",
+    "expire_time": "过期时间",
+    "day": "天",
+    "label_users": "会员人数",
+    "label_count": "积分额度统计",
+    "label_top_up": "积分充值",
+    "label_deduct": "积分扣除",
+    "label_invalid_set": "失效设置",
+    "btn_confirm_deduct": "确认扣除",
+    "btn_confirm_invalid_set": "确认设置",
+    "btn_confirm_top_up": "确认充值",
+    "tips_enter_points": "请输入积分",
+    "tips_enter_invalid_set": "请输入过期天数",
+    "tips_confirm_deduct": "确认扣除 {amount} 积分从【{username}】",
+    "tips_confirm_invalid_set": "确认设置 {username} 积分的过期时间为 {expire_at} 天",
+    "tips_confirm_top_up": "确认充值 {amount} 积分至【{username}】",
+    "deduct_success": "扣除成功",
+    "invalid_set_success": "设置成功",
+    "top_up_success": "充值成功"
+  }
+}

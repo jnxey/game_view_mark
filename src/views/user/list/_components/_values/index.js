@@ -1,0 +1,6 @@
+export const GAME_CONFIG_MARK = {
+  shares: 'GAME_CONFIG_MARK_SHARES',
+  washing: 'GAME_CONFIG_MARK_WASHING',
+  redeem: 'GAME_CONFIG_MARK_REDEEM',
+  rebateLimit: 'GAME_CONFIG_MARK_REBATE_LIMIT'
+};

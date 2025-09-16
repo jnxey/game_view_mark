@@ -1,0 +1,215 @@
+{
+  "title": "Currency",
+  "base": {
+    "title": "Base Currency",
+    "quick_fill": "Quick Settings",
+    "name": "Currency Name",
+    "icon": "Currency Symbol",
+    "abbreviation": "Abbreviation",
+    "remark": "Remark",
+    "image": "Icon",
+    "color": "Color",
+    "virtual_status": "Remittance only",
+    "placeholder_name": "Please enter the currency name",
+    "placeholder_icon": "Please enter the currency symbol",
+    "placeholder_abbreviation": "Please enter the currency abbreviation",
+    "placeholder_remark": "Please enter the remark",
+    "title_edit": "Edit Base Currency",
+    "title_add": "Add Base Currency",
+    "field_check_name": "Please enter the currency name",
+    "field_check_icon": "Please enter the currency symbol",
+    "field_check_abbreviation": "Please enter the currency abbreviation",
+    "field_check_image": "Please select the currency image",
+    "tips_submit": "This operation will affect [Game Configuration] and [Member-Game Configuration], please check!"
+  },
+  "config": {
+    "title": "Currency config",
+    "currency": "Base Currency",
+    "name": "Currency Name",
+    "type": "Currency Type",
+    "status": "Status",
+    "sort": "Sort",
+    "remark": "Remark",
+    "image": "Currency Icon",
+    "icon": "Currency Symbol",
+    "abbreviation": "Currency Abbreviation",
+    "color": "Color",
+    "placeholder_currency": "Please select base currency",
+    "placeholder_name": "Please enter currency name",
+    "placeholder_remark": "Please enter remark",
+    "tips_sort": "Default is 0, the larger the value, the higher the ranking",
+    "title_edit": "Edit Currency Settings",
+    "title_add": "Add Currency Settings",
+    "field_check_currency": "Please select base currency",
+    "field_check_name": "Please enter currency name",
+    "field_sort": "Please enter sort",
+    "tips_submit": "This operation will affect [Game Configuration] and [Member-Game Configuration], please check!",
+    "tips_change_status": "Confirm {text} its status"
+  },
+  "chip": {
+    "title": "Chip Binding",
+    "unique_code": "Unique code",
+    "image": "Chip image",
+    "chip_value": "Face value",
+    "currency": "Base currency",
+    "bind_user": "Bind Member No.",
+    "create_time": "Input time",
+    "update_time": "Binding time"
+  },
+  "currencies": [
+    {
+      "name": "US dollar",
+      "code": "USD",
+      "symbol": "$",
+      "rateUSD": 1,
+      "image": "united-states.png"
+    },
+    {
+      "name": "RMB",
+      "code": "CNY",
+      "symbol": "¥",
+      "rateUSD": 7.33,
+      "image": "china.png"
+    },
+    {
+      "name": "Thai baht",
+      "code": "THB",
+      "symbol": "฿",
+      "rateUSD": 34.7,
+      "image": "thailand.png"
+    },
+    {
+      "name": "Myanmar Kyat",
+      "code": "MMK",
+      "symbol": "K",
+      "rateUSD": 2078.61,
+      "image": "myanmar.png"
+    },
+    {
+      "name": "Singapore Dollar",
+      "code": "SGD",
+      "symbol": "S$",
+      "rateUSD": 1.36,
+      "image": "singapore.png"
+    },
+    {
+      "name": "Ringgit",
+      "code": "MYR",
+      "symbol": "RM",
+      "rateUSD": 4.5,
+      "image": "malaysia.png"
+    },
+    {
+      "name": "Indonesian Rupiah",
+      "code": "IDR",
+      "symbol": "Rp",
+      "rateUSD": 16276.5,
+      "image": "indonesia.png"
+    },
+    {
+      "name": "Peso",
+      "code": "PHP",
+      "symbol": "₱",
+      "rateUSD": 58.62,
+      "image": "philippines.png"
+    },
+    {
+      "name": "Vietnamese Dong",
+      "code": "VND",
+      "symbol": "₫",
+      "rateUSD": 25383,
+      "image": "vietnam.png"
+    },
+    {
+      "name": "Brunei Dollar",
+      "code": "BND",
+      "symbol": "B$",
+      "rateUSD": 1.36,
+      "image": "brunei.png"
+    },
+    {
+      "name": "Riel",
+      "code": "KHR",
+      "symbol": "៛",
+      "rateUSD": 3961.5,
+      "image": "cambodia.png"
+    },
+    {
+      "name": "Kip",
+      "code": "LAK",
+      "symbol": "₭",
+      "rateUSD": 21592.2,
+      "image": "laos.png"
+    },
+    {
+      "name": "Hong Kong Dollar",
+      "code": "HKD",
+      "symbol": "HK$",
+      "rateUSD": 7.78,
+      "image": "hong-kong.png"
+    },
+    {
+      "name": "New Zealand Dollar",
+      "code": "NZD",
+      "symbol": "NZ$",
+      "rateUSD": 1.78,
+      "image": "new-zealand.png"
+    },
+    {
+      "name": "Rupee",
+      "code": "INR",
+      "symbol": "₹",
+      "rateUSD": 86.56,
+      "image": "india.png"
+    },
+    {
+      "name": "Korean Won",
+      "code": "KRW",
+      "symbol": "₩",
+      "rateUSD": 1459.23,
+      "image": "south-korea.png"
+    },
+    {
+      "name": "Euro",
+      "code": "EUR",
+      "symbol": "€",
+      "rateUSD": 0.97,
+      "image": "european-union.png"
+    },
+    {
+      "name": "Japanese Yen",
+      "code": "JPY",
+      "symbol": "¥",
+      "rateUSD": 157.78,
+      "image": "japan.png"
+    },
+    {
+      "name": "British Pound",
+      "code": "GBP",
+      "symbol": "£",
+      "rateUSD": 0.82,
+      "image": "united-kingdom.png"
+    },
+    {
+      "name": "Australian Dollar",
+      "code": "AUD",
+      "symbol": "A$",
+      "rateUSD": 1.61,
+      "image": "australia.png"
+    },
+    {
+      "name": "Canadian Dollar",
+      "code": "CAD",
+      "symbol": "C$",
+      "rateUSD": 1.43,
+      "image": "canada.png"
+    },
+    {
+      "name": "franc",
+      "code": "CHF",
+      "symbol": "CHF",
+      "rateUSD": 0.91,
+      "image": "switzerland.png"
+    }
+  ]
+}

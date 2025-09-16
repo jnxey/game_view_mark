@@ -1,0 +1,20 @@
+{
+  "title": "数据看板",
+  "total_employees": "总员工数",
+  "total_members": "总会员数",
+  "daily_active": "当天活跃会员",
+  "monthly_active": "当月活跃会员",
+  "new_members": "当月总新增会员",
+  "quick_menu": "快捷菜单",
+  "qoq_options_current": "月周期环比",
+  "pipe_options": "月投注项占比",
+  "daily_options": "按日活跃趋势",
+  "monthly_options": "按月活跃趋势",
+  "total_amount": "总额",
+  "total_profit": "总净收益",
+  "total_bet_profit": "总注单盈亏",
+  "total_code_washing": "总洗码量",
+  "total_code_washing_fee": "总洗码费",
+  "total_bonus_profit": "总彩金盈亏",
+  "total_active": "总活跃会员"
+}

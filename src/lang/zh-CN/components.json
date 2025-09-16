@@ -1,0 +1,215 @@
+{
+  "title": "组件",
+  "gv_account_change": {
+    "title": "切换账号",
+    "placeholder_account": "请输入帐号",
+    "placeholder_password": "请输入密码",
+    "btn_confirm_change": "确认切换",
+    "btn_confirm_logout": "退出登录",
+    "tips_confirm_logout": "确认退出登录",
+    "tips_change_success": "切换成功"
+  },
+  "gv_cropper": {
+    "title": "裁剪图片"
+  },
+  "gv_date_picker": {
+    "title": "选择日期",
+    "placeholder": "请选择时间"
+  },
+  "gv_daterange_picker": {
+    "title": "选择时间",
+    "placeholder": "请选择时间",
+    "to": "至"
+  },
+  "gv_download_app": {
+    "title": "下载应用",
+    "download": "下载",
+    "tips_build_loading": "正在打包",
+    "tips_build_success": "打包成功"
+  },
+  "gv_icon_picker": {
+    "title": "选择图标",
+    "placeholder": "搜索图标"
+  },
+  "gv_input_currency": {
+    "title": "选择货币",
+    "placeholder": "请输入货币名称",
+    "btn_setting": "系统提供的货币"
+  },
+  "gv_input_language": {
+    "title": "国际化词条",
+    "code": "标识",
+    "tips_dbclick": "双击可直接选中词条",
+    "tips_enter": "请至少输入简体中文",
+    "tips_max_length": "词条总数已达最大值，请联系管理员"
+  },
+  "gv_input_rebate_range": {
+    "title": "设置按量返比范围",
+    "under":"以下",
+    "above": "以上",
+    "rebates": "返点"
+  },
+  "gv_keyboard": {
+    "title": "虚拟键盘",
+    "space": "空格",
+    "change_word": "切换字母",
+    "change_number": "切换数字"
+  },
+  "gv_keyboard_change": {
+    "title": "切换虚拟键盘",
+    "keyboard_open": "虚拟键盘已打开",
+    "keyboard_close": "虚拟键盘已关闭"
+  },
+  "gv_low_code": {
+    "title": "低代码页面配置",
+    "comp_image": "图片",
+    "comp_text": "文字",
+    "comp_bonus": "彩金",
+    "attr_size": "大小",
+    "attr_position": "位置",
+    "attr_text": "文案",
+    "attr_image": "图片",
+    "attr_color": "颜色",
+    "attr_font_bold": "加粗",
+    "attr_font_italic": "斜体",
+    "attr_font_family": "字体",
+    "attr_font_size": "大小",
+    "attr_title_color": "标题",
+    "attr_amount_color": "金额",
+    "attr_border_color": "边框",
+    "attr_bg_color": "背景",
+    "attr_only_title": "显示标题",
+    "attr_only_amount": "显示金额",
+    "attr_text_shadow": "字体阴影",
+    "attr_text_align": "对齐方式",
+    "attr_text_space": "间隔",
+    "attr_text_other": "其他样式",
+    "attr_width": "宽",
+    "attr_height": "高",
+    "attr_left": "左",
+    "attr_top": "上",
+    "attr_font_title_family": "标题字体",
+    "attr_font_amount_family": "金额字体",
+    "command_top": "置顶",
+    "command_bottom": "置底",
+    "command_up": "上移",
+    "command_down": "下移",
+    "command_copy": "复制",
+    "command_delete": "删除",
+    "family_microsoft_ya_hei": "微软雅黑",
+    "family_sans_serif": "无衬线体",
+    "family_serif": "衬线体",
+    "family_sim_sun": "宋体",
+    "family_kai_ti": "楷体",
+    "family_cast": "铸体字"
+  },
+  "gv_material": {
+    "title": "素材",
+    "cate_name": "名称",
+    "cate_placeholder_name": "请输入名称",
+    "cate_is_private": "是否私有",
+    "cate_title_add": "新增分组",
+    "cate_title_edit": "编辑分组",
+    "cate_all": "全部",
+    "cate_no": "未分组",
+    "cate_add": "添加分组",
+    "cate_edit": "编辑分组",
+    "cate_del": "删除分组",
+    "file_upload_local": "本地上传",
+    "file_move": "移动",
+    "file_move_to": "移动文件至",
+    "file_placeholder_name": "请输入名称",
+    "file_placeholder_select": "请选择",
+    "file_view": "查看",
+    "file_rename": "重命名",
+    "file_address": "地址",
+    "file_download": "下载",
+    "file_empty": "暂无数据",
+    "file_select_all": "当页全选",
+    "file_selected": "已选择",
+    "file_clear": "清空",
+    "file_copy_success": "复制成功",
+    "picker_modify": "修改",
+    "picker_view": "查看",
+    "picker_add": "添加",
+    "picker_image": "图片",
+    "picker_video": "视频",
+    "preview_video": "视频预览",
+    "cate_tips_confirm_delete": "删除文件夹将会永久删除文件夹及其所有内容。您确定要继续吗？",
+    "file_tips_confirm_delete": "确认删除后，本地或云存储文件也将同步删除，如文件已被使用，请谨慎操作！",
+    "file_tips_selected_max": "已达到选择上限"
+  },
+  "gv_selecte_admin": {
+    "title": "选择员工",
+    "placeholder_search": "请输入工号",
+    "work_no": "工号",
+    "name": "姓名",
+    "tips_value_check": "请选择员工"
+  },
+  "gv_select_currency": {
+    "title": "选择货币",
+    "title_config": "选择币种",
+    "to_add": "添加《货币》",
+    "placeholder": "请选择基础货币"
+  },
+  "gv_select_perms": {
+    "title": "选择权限",
+    "placeholder": "请选择权限"
+  },
+  "gv_select_user": {
+    "title": "选择会员",
+    "placeholder_search": "请输入会员号",
+    "username": "会员号",
+    "nickname": "昵称",
+    "tips_value_check": "请选择会员"
+  },
+  "gv_table": {
+    "title": "表格",
+    "label_setting_top_fixed": "表头固定",
+    "btn_refresh": "刷新",
+    "btn_print": "打印",
+    "btn_search_show": "显示搜索栏",
+    "btn_search_hide": "隐藏搜索栏",
+    "btn_setting": "设置字段",
+    "btn_export": "导出",
+    "btn_delete_setting": "清除设置",
+    "tips_delete_setting": "确认清除字段设置",
+    "tips_setting_top_fixed": "拖动至此处表头固定显示",
+    "tips_setting_footer_drag": "上下移动列排序",
+    "tips_search_click": "点击查询搜索数据",
+    "tips_search_empty": "暂无数据"
+  },
+  "gv_upload": {
+    "title": "上传",
+    "tips_process": "上传进度",
+    "tips_fail": "{name}文件上传失败",
+    "tips_limit": "超出上传上限{limit}，请重新上传"
+  },
+  "gv_user_tree": {
+    "title": "会员树",
+    "all_title": "全部",
+    "placeholder_user_no": "请输入会员号",
+    "tips_selected_current": "已选中当前用户层级",
+    "tips_no_match_user": "未找到该会员，刷新页面重试"
+  },
+  "gv_video_camera_design": {
+    "title": "摄像头分区设置",
+    "tips_error_point": "未找到点位设置，请检查"
+  },
+  "gv_video_recorder_connection": {
+    "title": "录像机连接检查",
+    "tips_check_success": "连接检查成功",
+    "tips_check_fail": "连接检查失败，请检查填入数据"
+  },
+  "gv_video_recorder_select": {
+    "title": "选择摄像头",
+    "unbind": "解绑摄像头",
+    "select_recorder": "选择录像机",
+    "confirm_bind": "确认绑定",
+    "confirm_unbind": "确认解绑摄像头",
+    "tips_unbind_success": "解绑成功",
+    "tips_no_camera": "请选择有效摄像头",
+    "tips_confirm_bind": "确认绑定摄像头",
+    "tips_bind_success": "绑定成功"
+  }
+}

@@ -1,0 +1,28 @@
+.theme-warm {
+  --el-color-warning: #fb9702;
+
+  --el-color-danger: #f34d4d;
+  --el-color-error: #f34d4d;
+
+  --el-bg-color: #edeae5;
+  --el-bg-color-page: #e1dad1;
+  --el-fill-color: #efece8;
+  --el-fill-color-light: #f3f0ec;
+  --el-fill-color-lighter: #f3f0ed;
+  --el-fill-color-extra-light: #f4f2f0;
+  --el-fill-color-dark: #f4f1eb;
+  --el-fill-color-darker: #f3eee5;
+  --el-fill-color-blank: #edeae5;
+
+  --el-border-color: #d1d5df;
+  --el-border-color-light: #d6dbe4;
+  --el-border-color-lighter: #dde1ec;
+  --el-border-color-extra-light: #e4eaf3;
+  --el-border-color-dark: #c7cbd5;
+  --el-border-color-darker: #bfc3cc;
+
+  --el-mask-color: #edeae5;
+
+  // custom
+  --el-primary-text-color: var(--el-color-white);
+}

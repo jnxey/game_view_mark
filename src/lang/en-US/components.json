@@ -1,0 +1,215 @@
+{
+  "title": "Component",
+  "gv_account_change": {
+    "title": "Switch account",
+    "placeholder_account": "Please enter account",
+    "placeholder_password": "Please enter password",
+    "btn_confirm_change": "Confirm switch",
+    "btn_confirm_logout": "Log out",
+    "tips_confirm_logout": "Confirm logout",
+    "tips_change_success": "Switch successful"
+  },
+  "gv_cropper": {
+    "title": "裁剪图片"
+  },
+  "gv_date_picker": {
+    "title": "Select date",
+    "placeholder": "Please select time"
+  },
+  "gv_daterange_picker": {
+    "title": "Select time",
+    "placeholder": "Please select time",
+    "to": "To"
+  },
+  "gv_download_app": {
+    "title": "Download the app",
+    "download": "Download",
+    "tips_build_loading": "Packaging",
+    "tips_build_success": "Packaging success"
+  },
+  "gv_icon_picker": {
+    "title": "Select icon",
+    "placeholder": "Search icon"
+  },
+  "gv_input_currency": {
+    "title": "Select currency",
+    "placeholder": "Please enter currency name",
+    "btn_setting": "Currency provided by the system"
+  },
+  "gv_input_language": {
+    "title": "Internationalization terms",
+    "code": "Code",
+    "tips_dbclick": "Double-click to select the entry directly",
+    "tips_enter": "Please enter at least Simplified Chinese",
+    "tips_max_length": "The total number of entries has reached the maximum value, please contact the administrator"
+  },
+  "gv_input_rebate_range": {
+    "title": "Set the return ratio range",
+    "under":"Under",
+    "above": "Above",
+    "rebates": "Rebates"
+  },
+  "gv_keyboard": {
+    "title": "Virtual Keyboard",
+    "space": "Space",
+    "change_word": "Switch letters",
+    "change_number": "Switch numbers"
+  },
+  "gv_keyboard_change": {
+    "title": "Toggle virtual keyboard",
+    "keyboard_open": "The virtual keyboard is open",
+    "keyboard_close": "The virtual keyboard is closed"
+  },
+  "gv_low_code": {
+    "title": "Low-code page configuration",
+    "comp_image": "Picture",
+    "comp_text": "Text",
+    "comp_bonus": "Bonus",
+    "attr_size": "Size",
+    "attr_position": "Position",
+    "attr_text": "Text",
+    "attr_image": "Picture",
+    "attr_color": "Color",
+    "attr_font_bold": "Bold",
+    "attr_font_italic": "Italic",
+    "attr_font_family": "Font",
+    "attr_font_size": "Size",
+    "attr_title_color": "Title",
+    "attr_amount_color": "Amount",
+    "attr_border_color": "Border",
+    "attr_bg_color": "Background",
+    "attr_only_title": "Display title",
+    "attr_only_amount": "Display amount",
+    "attr_text_shadow": "Font Shadow",
+    "attr_text_align": "Alignment",
+    "attr_text_space": "Letter spacing",
+    "attr_text_other": "Other Styles",
+    "attr_width": "Width",
+    "attr_height": "Height",
+    "attr_left": "Left",
+    "attr_top": "Top",
+    "attr_font_title_family": "Title Font",
+    "attr_font_amount_family": "Amount font",
+    "command_top": "Top",
+    "command_bottom": "Bottom",
+    "command_up": "Move up",
+    "command_down": "Move down",
+    "command_copy": "Copy",
+    "command_delete": "Delete",
+    "family_microsoft_ya_hei": "Microsoft YaHei",
+    "family_sans_serif": "Sans-serif",
+    "family_serif": "Serif",
+    "family_sim_sun": "SimSun",
+    "family_kai_ti": "KaiTi",
+    "family_cast": "Cast"
+  },
+  "gv_material": {
+    "title": "Material",
+    "cate_name": "Name",
+    "cate_placeholder_name": "Please enter a name",
+    "cate_is_private": "Is it private",
+    "cate_title_add": "Add a new group",
+    "cate_title_edit": "Edit a group",
+    "cate_all": "All",
+    "cate_no": "Ungrouped",
+    "cate_add": "Add a group",
+    "cate_edit": "Edit a group",
+    "cate_del": "Delete a group",
+    "file_upload_local": "Local upload",
+    "file_move": "Move",
+    "file_move_to": "Move file to",
+    "file_placeholder_name": "Please enter a name",
+    "file_placeholder_select": "Please select",
+    "file_view": "View",
+    "file_rename": "Rename",
+    "file_address": "Address",
+    "file_download": "Download",
+    "file_empty": "No data",
+    "file_select_all": "Select all on this page",
+    "file_selected": "Selected",
+    "file_clear": "Clear",
+    "file_copy_success": "Copy successfully",
+    "picker_modify": "Modify",
+    "picker_view": "View",
+    "picker_add": "Add",
+    "picker_image": "Picture",
+    "picker_video": "Video",
+    "preview_video": "Video preview",
+    "cate_tips_confirm_delete": "Deleting a folder will permanently delete the folder and all its contents. Are you sure you want to continue?",
+    "file_tips_confirm_delete": "After confirming the deletion, local or cloud storage files will also be deleted synchronously. If the file has been used, please operate with caution!",
+    "file_tips_selected_max": "The selection limit has been reached"
+  },
+  "gv_selecte_admin": {
+    "title": "Select employee",
+    "placeholder_search": "Please enter the Work No.",
+    "work_no": "Work No.",
+    "name": "Name",
+    "tips_value_check": "Please select an employee"
+  },
+  "gv_select_currency": {
+    "title": "Select currency",
+    "title_config": "Select a currency",
+    "to_add": "Add Currency",
+    "placeholder": "Please select a base currency"
+  },
+  "gv_select_perms": {
+    "title": "Select Select",
+    "placeholder": "Please select Select"
+  },
+  "gv_select_user": {
+    "title": "Select a member",
+    "placeholder_search": "Please enter your Member No.",
+    "username": "Member No.",
+    "nickname": "Nickname",
+    "tips_value_check": "Please select a member"
+  },
+  "gv_table": {
+    "title": "Table",
+    "label_setting_top_fixed": "Fixed header",
+    "btn_refresh": "Refresh",
+    "btn_print": "Print",
+    "btn_search_show": "Show search bar",
+    "btn_search_hide": "Hide search bar",
+    "btn_setting": "Set fields",
+    "btn_export": "Export",
+    "btn_delete_setting": "Clear Settings",
+    "tips_delete_setting": "Confirm clear field settings",
+    "tips_setting_top_fixed": "Drag here to fix the header display",
+    "tips_setting_footer_drag": "Move up and down to sort the column",
+    "tips_search_click": "Click to query search data",
+    "tips_search_empty": "No data yet"
+  },
+  "gv_upload": {
+    "title": "Upload",
+    "tips_process": "Upload progress",
+    "tips_fail": "{name} file upload failed",
+    "tips_limit": "Exceeded upload limit {limit}, please upload again"
+  },
+  "gv_user_tree": {
+    "title": "Member tree",
+    "all_title": "All",
+    "placeholder_user_no": "Please enter Member No.",
+    "tips_selected_current": "Current user level selected",
+    "tips_no_match_user": "The member was not found, refresh the page and try again"
+  },
+  "gv_video_camera_design": {
+    "title": "Camera partition settings",
+    "tips_error_point": "No point setting found, please check"
+  },
+  "gv_video_recorder_connection": {
+    "title": "DVR connection check",
+    "tips_check_success": "Connection check successful",
+    "tips_check_fail": "Connection check failed, please check the data you entered"
+  },
+  "gv_video_recorder_select": {
+    "title": "Select Camera",
+    "unbind": "Unbind camera",
+    "select_recorder": "Select recorder",
+    "confirm_bind": "Confirm binding",
+    "confirm_unbind": "Confirm unbinding camera",
+    "tips_unbind_success": "Unbinding successful",
+    "tips_no_camera": "Please select a valid camera",
+    "tips_confirm_bind": "Confirm binding camera",
+    "tips_bind_success": "Binding successful"
+  }
+}

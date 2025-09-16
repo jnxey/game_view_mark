@@ -1,0 +1,13 @@
+{
+  "title": "Login",
+  "box_title": "Management System",
+  "placeholder_account": "Please enter your account",
+  "placeholder_password": "Please enter your password",
+  "field_check_account": "Please enter your account",
+  "field_check_password": "Please enter your password",
+  "login_btn": "Login",
+  "login_success": "Login successful",
+  "tips_bind": "This number has been bound to other devices, you cannot log in on this device",
+  "keyboard_open": "The virtual keyboard is open",
+  "keyboard_close": "The virtual keyboard is closed"
+}

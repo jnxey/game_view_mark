@@ -1,0 +1,68 @@
+// 自定义表格
+.gv-custom-table {
+  table {
+    width: 100%;
+    -webkit-border-horizontal-spacing: 0;
+    -webkit-border-vertical-spacing: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    table-layout: fixed;
+    border-collapse: separate;
+    display: table;
+    border-top: 1px solid var(--el-border-color);
+    border-left: 1px solid var(--el-border-color);
+
+    &,
+    * {
+      box-sizing: border-box;
+    }
+
+    &.bg-gray {
+      tr {
+        background-color: var(--el-fill-color-lighter);
+      }
+    }
+
+    tr {
+      display: table-row;
+      vertical-align: inherit;
+      border-color: inherit;
+    }
+
+    tbody tr td,
+    thead tr th {
+      position: relative;
+      padding: 8px 12px;
+      text-overflow: ellipsis;
+      border-right: 1px solid var(--el-border-color);
+      border-bottom: 1px solid var(--el-border-color);
+      text-align: center;
+      vertical-align: middle;
+      color: var(--el-text-color-primary);
+
+      &.title {
+        background-color: var(--el-fill-color);
+      }
+    }
+
+    caption {
+      padding: 10px;
+      border-right: 1px solid var(--el-border-color);
+      border-left: 1px solid var(--el-border-color);
+      border-top: 1px solid rgb(143, 54, 54);
+    }
+
+    tr.left td, td.left  {
+      text-align: left;
+    }
+  }
+
+  &.padding-small {
+    table {
+      tbody tr td,
+      thead tr th {
+        padding: 5px 8px;
+      }
+    }
+  }
+}

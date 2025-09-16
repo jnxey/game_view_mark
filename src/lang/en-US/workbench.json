@@ -1,0 +1,20 @@
+{
+  "title": "Data dashboard",
+  "total_employees": "Total number of employees",
+  "total_members": "Total number of members",
+  "daily_active": "Active members of the day",
+  "monthly_active": "Active members of the month",
+  "new_members": "Total new members of the month",
+  "quick_menu": "Quick menu",
+  "qoq_options_current": "Monthly cycle comparison",
+  "pipe_options": "Monthly betting item share",
+  "daily_options": "Daily active trend",
+  "monthly_options": "Monthly active trend",
+  "total_amount": "Total amount",
+  "total_profit": "Total net income",
+  "total_bet_profit": "Total bet single profit",
+  "total_code_washing": "Total code washing amount",
+  "total_code_washing_fee": "Total code washing fee",
+  "total_bonus_profit": "Total bonus profit",
+  "total_active": "Total active members"
+}

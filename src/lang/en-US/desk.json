@@ -1,0 +1,23 @@
+{
+  "title": "Large screen",
+  "bonus": {
+    "title": "Big screen with bonus",
+    "empty_tips": "The bonus screen has not been configured yet",
+    "to_set_btn": "Go to bonus type settings",
+    "congratulations": "Congratulations",
+    "hit_prize": "Win the prize",
+    "tips_toggle_voice": "Due to permission restrictions, do you want to manually turn on the sound?"
+  },
+  "road": {
+    "title": "Road single screen",
+    "empty_tips": "This game has no big screen display",
+    "title_count": "Statistics",
+    "table_name": "Table No.",
+    "boot_number": "Boot No.",
+    "round_number": "Round No."
+  },
+  "main": {
+    "title": "Big screen game",
+    "continue": "Go directly to this page"
+  }
+}

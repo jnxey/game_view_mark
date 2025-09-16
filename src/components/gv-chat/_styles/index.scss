@@ -1,0 +1,14 @@
+.chat-text-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 16px;
+  line-height: 32px;
+  user-select: none;
+
+  img {
+    width: 24px;
+    height: 24px;
+    margin: 0 2px;
+  }
+}

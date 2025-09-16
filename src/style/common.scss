@@ -1,0 +1,494 @@
+/***************************常用字体大小********************************/
+.fz-10 {
+  font-size: 10px;
+}
+
+.fz-12 {
+  font-size: 12px;
+}
+
+.fz-14 {
+  font-size: 14px;
+}
+
+.fz-16 {
+  font-size: 16px;
+}
+
+.fz-18 {
+  font-size: 18px;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+/***************************常用字体粗细********************************/
+.fw-normal {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+/***************************常用文字颜色********************************/
+.color-white {
+  color: var(--el-color-white);
+}
+
+.color-black {
+  color: var(--el-color-black);
+}
+
+.text-primary {
+  color: var(--el-color-primary);
+}
+
+.text-main {
+  color: var(--el-text-color-primary);
+}
+
+.text-regular {
+  color: var(--el-text-color-regular);
+}
+
+.text-placeholder {
+  color: var(--el-text-color-secondary);
+}
+
+.text-fill-dark {
+  color: var(--el-fill-color-dark);
+}
+
+.text-success {
+  color: var(--el-color-success);
+}
+
+.text-warning {
+  color: var(--el-color-warning);
+}
+
+.text-danger {
+  color: var(--el-color-danger);
+}
+
+/***************************常用文案排列********************************/
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-line-1 {
+  line-height: 1;
+}
+
+.text-line-1_5 {
+  line-height: 1.5;
+}
+
+.text-del-line {
+  text-decoration-line: line-through;
+}
+
+.text-tips {
+  font-size: 12px;
+  line-height: 1.5;
+  padding-top: 4px;
+  color: var(--el-text-color-placeholder);
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+
+/***************************字体倾斜********************************/
+
+.fs-italic {
+  font-style: italic;
+}
+
+/***************************常用手势********************************/
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/***************************常用布局********************************/
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-column-reverse{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.align-top {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-bottom {
+  align-items: flex-end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-1_5 {
+  flex: 1.5;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-lock {
+  flex-shrink: 0;
+}
+
+.flex-w0 {
+  width: 0;
+}
+
+.flex-h0 {
+  height: 0;
+}
+
+
+/***************************常用外边距********************************/
+.m-4 {
+  margin: 4px;
+}
+//
+.ml-4 {
+  margin-left: 4px;
+}
+
+.ml-8 {
+  margin-left: 8px;
+}
+
+.ml-12 {
+  margin-left: 12px;
+}
+
+.ml-16 {
+  margin-left: 16px;
+}
+
+
+.mr-4 {
+  margin-right: 4px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.mr-12 {
+  margin-right: 12px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.mt-4 {
+  margin-top: 4px;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+/***************************常用内边距********************************/
+.p-4 {
+  padding: 4px;
+}
+
+.p-8 {
+  padding: 8px;
+}
+
+.p-12 {
+  padding: 12px;
+}
+
+.p-16 {
+  padding: 16px;
+}
+//
+.pl-4 {
+  padding-left: 4px;
+}
+
+.pl-8 {
+  padding-left: 8px;
+}
+
+.pl-12 {
+  padding-left: 12px;
+}
+
+.pl-16 {
+  padding-left: 16px;
+}
+
+.pr-4 {
+  padding-right: 4px;
+}
+
+.pr-8 {
+  padding-right: 8px;
+}
+
+.pr-12 {
+  padding-right: 12px;
+}
+
+.pr-16 {
+  padding-right: 16px;
+}
+
+.pt-4 {
+  padding-top: 4px;
+}
+
+.pt-8 {
+  padding-top: 8px;
+}
+
+.pt-12 {
+  padding-top: 12px;
+}
+
+.pt-16 {
+  padding-top: 16px;
+}
+
+.pb-4 {
+  padding-bottom: 4px;
+}
+
+.pb-8 {
+  padding-bottom: 8px;
+}
+
+.pb-12 {
+  padding-bottom: 12px;
+}
+
+.pb-16 {
+  padding-bottom: 16px;
+}
+/***************************常用宽度********************************/
+.w-full {
+  width: 100%;
+}
+
+.w-16 {
+  width: 16px;
+}
+
+.w-20 {
+  width: 20px;
+}
+
+.w-40 {
+  width:40px;
+}
+
+.w-60 {
+  width: 60px;
+}
+
+.w-80 {
+  width: 80px;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.w-120 {
+  width: 120px;
+}
+
+.w-160 {
+  width: 160px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-280 {
+  width: 280px;
+}
+
+/***************************常用高度********************************/
+.h-full {
+  height: 100%;
+}
+
+.h-16 {
+  height: 16px;
+}
+
+.h-20 {
+  height: 20px;
+}
+
+.h-40 {
+  height:40px;
+}
+
+.h-80 {
+  height: 80px;
+}
+
+.h-120 {
+  height: 120px;
+}
+
+.h-200 {
+  height: 200px;
+}
+
+.h-280 {
+  height: 280px;
+}
+
+/***************************link按钮********************************/
+.link {
+  color: var(--el-color-primary);
+  cursor: pointer;
+  user-select: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/***************************临时代码********************************/
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+/***************************滚动********************************/
+
+.scroll-custom {
+  overflow: auto;
+}
+
+/***************************动画********************************/
+@keyframes loop-turn {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/***************************隐藏与否********************************/
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.visibility-show {
+  visibility: visible;
+}

@@ -1,0 +1,181 @@
+{
+  "name": "zh-cn",
+  "el": {
+    "breadcrumb": {
+      "label": "Breadcrumbs"
+    },
+    "colorpicker": {
+      "confirm": "Confirm",
+      "clear": "Clear",
+      "defaultLabel": "Color picker",
+      "description": "Current color {color}, press Enter to select a new color",
+      "alphaLabel": "Select a transparency value"
+    },
+    "datepicker": {
+      "now": "Now",
+      "today": "Today",
+      "cancel": "Cancel",
+      "clear": "Clear",
+      "confirm": "Confirm",
+      "dateTablePrompt": "Use the arrow keys and Enter to select a date",
+      "monthTablePrompt": "Use the arrow keys and Enter to select a month",
+      "yearTablePrompt": "Use the arrow keys and Enter to select a year",
+      "selectedDate": "Selected date",
+      "selectDate": "Select a date",
+      "selectTime": "Select a time",
+      "startDate": "Start Date",
+      "startTime": "Start Time",
+      "endDate": "End Date",
+      "endTime": "End Time",
+      "prevYear": "Previous Year",
+      "nextYear": "Next Year",
+      "prevMonth": "Previous Month",
+      "nextMonth": "Next Month",
+      "year": "Year",
+      "month1": "January",
+      "month2": "February",
+      "month3": "March",
+      "month4": "April",
+      "month5": "May",
+      "month6": "June",
+      "month7": "July",
+      "month8": "August",
+      "month9": "September",
+      "month10": "October",
+      "month11": "November",
+      "month12": "December",
+      "weeks": {
+        "sun": "Sun",
+        "mon": "Mon",
+        "tue": "Tue",
+        "wed": "Wed",
+        "thu": "Thu",
+        "fri": "Fri",
+        "sat": "Sat"
+      },
+      "weeksFull": {
+        "sun": "Sunday",
+        "mon": "Monday",
+        "tue": "Tuesday",
+        "wed": "Wednesday",
+        "thu": "Thursday",
+        "fri": "Friday",
+        "sat": "Saturday"
+      },
+      "months": {
+        "jan": "Jan",
+        "feb": "Feb",
+        "mar": "Mar",
+        "apr": "Apr",
+        "may": "May",
+        "jun": "Jun",
+        "jul": "Jul",
+        "aug": "Aug",
+        "sep": "Sep",
+        "oct": "Oct",
+        "nov": "Nov",
+        "dec": "Dec"
+      }
+    },
+    "inputNumber": {
+      "decrease": "Decrease value",
+      "increase": "Increase value"
+    },
+    "select": {
+      "loading": "Loading",
+      "noMatch": "No matching data",
+      "noData": "No data",
+      "placeholder": "Please select"
+    },
+    "dropdown": {
+      "toggleDropdown": "Toggle drop-down options"
+    },
+    "mention": {
+      "loading": "Loading"
+    },
+    "cascader": {
+      "noMatch": "No matching data",
+      "loading": "Loading",
+      "placeholder": "Please select",
+      "noData": "No data"
+    },
+    "pagination": {
+      "goto": "Go to",
+      "pagesize": " Items/page",
+      "total": "Total {total} items",
+      "pageClassifier": "Page",
+      "page": "Page",
+      "prev": "Previous page",
+      "next": "Next page",
+      "currentPage": "Page {pager}",
+      "prevPages": "Previous {pager} pages",
+      "nextPages": "Next {pager} pages",
+      "deprecationWarning": "You have used some deprecated usage, please refer to the official documentation of el-pagination"
+    },
+    "dialog": {
+      "close": "Close this dialog"
+    },
+    "drawer": {
+      "close": "Close this dialog"
+    },
+    "messagebox": {
+      "title": "Prompt",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "error": "Input data is illegal!",
+      "close": "Close this dialog"
+    },
+    "upload": {
+      "deleteTip": "Press the delete key to delete",
+      "delete": "Delete",
+      "preview": "View the image",
+      "continue": "Continue uploading"
+    },
+    "slider": {
+      "defaultLabel": "Slider between {min} and {max}",
+      "defaultRangeStartLabel": "Select the starting value",
+      "defaultRangeEndLabel": "Select the ending value"
+    },
+    "table": {
+      "emptyText": "No data",
+      "confirmFilter": "Filter",
+      "resetFilter": "Reset",
+      "clearFilter": "All",
+      "sumText": "Total"
+    },
+    "tour": {
+      "next": "Next",
+      "previous": "Previous",
+      "finish": "End tour"
+    },
+    "tree": {
+      "emptyText": "No data"
+    },
+    "transfer": {
+      "noMatch": "No matching data",
+      "noData": "No data",
+      "titles": [
+        "List 1",
+        "List 2"
+      ],
+      "filterPlaceholder": "Please enter search content",
+      "noCheckedFormat": "Total {total} items",
+      "hasCheckedFormat": "Selected {checked}/{total} items"
+    },
+    "image": {
+      "error": "Load failed"
+    },
+    "pageHeader": {
+      "title": "Back"
+    },
+    "popconfirm": {
+      "confirmButtonText": "Confirm",
+      "cancelButtonText": "Cancel"
+    },
+    "carousel": {
+      "leftArrow": "Previous slide",
+      "rightArrow": "Next slide",
+      "indicator": "Slide switch to index {index}"
+    }
+  }
+}

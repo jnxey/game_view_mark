@@ -1,0 +1,215 @@
+{
+  "title": "货币配置",
+  "base": {
+    "title": "基础货币",
+    "quick_fill": "快捷设置",
+    "name": "货币名称",
+    "icon": "货币符号",
+    "abbreviation": "简称",
+    "remark": "备注",
+    "image": "图标",
+    "color": "颜色",
+    "virtual_status": "汇款专用",
+    "placeholder_name": "请输入货币名称",
+    "placeholder_icon": "请输入币种符号",
+    "placeholder_abbreviation": "请输入货币简称",
+    "placeholder_remark": "请输入备注",
+    "title_edit": "编辑基础货币",
+    "title_add": "新增基础货币",
+    "field_check_name": "请输入货币名称",
+    "field_check_icon": "请输入币种符号",
+    "field_check_abbreviation": "请输入货币简称",
+    "field_check_image": "请选择币种图片",
+    "tips_submit": "此操作将影响【游戏配置】以及【会员-游戏配置】，请检查！"
+  },
+  "config": {
+    "title": "币种",
+    "currency": "基础货币",
+    "name": "币种名称",
+    "type": "币种类型",
+    "status": "状态",
+    "sort": "排序",
+    "remark": "备注",
+    "image": "货币图标",
+    "icon": "货币符号",
+    "abbreviation": "货币简称",
+    "color": "颜色",
+    "placeholder_currency": "请选择基础货币",
+    "placeholder_name": "请输入币种名称",
+    "placeholder_remark": "请输入备注",
+    "tips_sort": "默认为0， 数值越大越排前",
+    "title_edit": "编辑货币设置",
+    "title_add": "新增货币设置",
+    "field_check_currency": "请选择基础货币",
+    "field_check_name": "请输入币种名称",
+    "field_sort": "请输入排序",
+    "tips_submit": "此操作将影响【游戏配置】以及【会员-游戏配置】，请检查！",
+    "tips_change_status": "确认{text}其状态"
+  },
+  "chip": {
+    "title": "筹码绑定",
+    "unique_code": "唯一编码",
+    "image": "筹码图片",
+    "chip_value": "面值",
+    "currency": "基础币种",
+    "bind_user": "绑定会员号",
+    "create_time": "录入时间",
+    "update_time": "绑定时间"
+  },
+  "currencies": [
+    {
+      "name": "美元",
+      "code": "USD",
+      "symbol": "$",
+      "rateUSD": 1,
+      "image": "united-states.png"
+    },
+    {
+      "name": "人民币",
+      "code": "CNY",
+      "symbol": "¥",
+      "rateUSD": 7.33,
+      "image": "china.png"
+    },
+    {
+      "name": "泰銖",
+      "code": "THB",
+      "symbol": "฿",
+      "rateUSD": 34.7,
+      "image": "thailand.png"
+    },
+    {
+      "name": "缅币",
+      "code": "MMK",
+      "symbol": "K",
+      "rateUSD": 2078.61,
+      "image": "myanmar.png"
+    },
+    {
+      "name": "新加坡元",
+      "code": "SGD",
+      "symbol": "S$",
+      "rateUSD": 1.36,
+      "image": "singapore.png"
+    },
+    {
+      "name": "林吉特",
+      "code": "MYR",
+      "symbol": "RM",
+      "rateUSD": 4.5,
+      "image": "malaysia.png"
+    },
+    {
+      "name": "印度尼西亚盾",
+      "code": "IDR",
+      "symbol": "Rp",
+      "rateUSD": 16276.5,
+      "image": "indonesia.png"
+    },
+    {
+      "name": "比索",
+      "code": "PHP",
+      "symbol": "₱",
+      "rateUSD": 58.62,
+      "image": "philippines.png"
+    },
+    {
+      "name": "越南盾",
+      "code": "VND",
+      "symbol": "₫",
+      "rateUSD": 25383,
+      "image": "vietnam.png"
+    },
+    {
+      "name": "文莱元",
+      "code": "BND",
+      "symbol": "B$",
+      "rateUSD": 1.36,
+      "image": "brunei.png"
+    },
+    {
+      "name": "瑞尔",
+      "code": "KHR",
+      "symbol": "៛",
+      "rateUSD": 3961.5,
+      "image": "cambodia.png"
+    },
+    {
+      "name": "基普",
+      "code": "LAK",
+      "symbol": "₭",
+      "rateUSD": 21592.2,
+      "image": "laos.png"
+    },
+    {
+      "name": "港币",
+      "code": "HKD",
+      "symbol": "HK$",
+      "rateUSD": 7.78,
+      "image": "hong-kong.png"
+    },
+    {
+      "name": "新西兰元",
+      "code": "NZD",
+      "symbol": "NZ$",
+      "rateUSD": 1.78,
+      "image": "new-zealand.png"
+    },
+    {
+      "name": "卢比",
+      "code": "INR",
+      "symbol": "₹",
+      "rateUSD": 86.56,
+      "image": "india.png"
+    },
+    {
+      "name": "韩元",
+      "code": "KRW",
+      "symbol": "₩",
+      "rateUSD": 1459.23,
+      "image": "south-korea.png"
+    },
+    {
+      "name": "欧元",
+      "code": "EUR",
+      "symbol": "€",
+      "rateUSD": 0.97,
+      "image": "european-union.png"
+    },
+    {
+      "name": "日元",
+      "code": "JPY",
+      "symbol": "¥",
+      "rateUSD": 157.78,
+      "image": "japan.png"
+    },
+    {
+      "name": "英磅",
+      "code": "GBP",
+      "symbol": "£",
+      "rateUSD": 0.82,
+      "image": "united-kingdom.png"
+    },
+    {
+      "name": "澳元",
+      "code": "AUD",
+      "symbol": "A$",
+      "rateUSD": 1.61,
+      "image": "australia.png"
+    },
+    {
+      "name": "加元",
+      "code": "CAD",
+      "symbol": "C$",
+      "rateUSD": 1.43,
+      "image": "canada.png"
+    },
+    {
+      "name": "法郎",
+      "code": "CHF",
+      "symbol": "CHF",
+      "rateUSD": 0.91,
+      "image": "switzerland.png"
+    }
+  ]
+}

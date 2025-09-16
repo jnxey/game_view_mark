@@ -1,0 +1,13 @@
+{
+  "title": "登录",
+  "box_title": "管理系统",
+  "placeholder_account": "请输入帐号",
+  "placeholder_password": "请输入密码",
+  "field_check_account": "请输入帐号",
+  "field_check_password": "请输入密码",
+  "login_btn": "登录",
+  "login_success": "登录成功",
+  "tips_bind": "此台号已绑定其他设备，不可在此设备登录",
+  "keyboard_open": "虚拟键盘已打开",
+  "keyboard_close": "虚拟键盘已关闭"
+}

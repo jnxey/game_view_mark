@@ -1,0 +1,45 @@
+.member-page-wrap {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  .header-left-wrap {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .header-right-wrap {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .content-wrap {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+  }
+
+  .menu-item-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #409EFF;
+    box-shadow: 0 10px 20px 4px rgba(0, 0, 0, 0.1);
+
+    &.menu-hover {
+      background-color: #082a4c;
+    }
+  }
+}

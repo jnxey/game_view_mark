@@ -1,0 +1,99 @@
+{
+  "title": "数据报表",
+  "check": {
+    "title": "今日点码",
+    "check_time": "点码时间",
+    "work_no": "点码人",
+    "chip_inc": "增码",
+    "chip_dec": "减码",
+    "manual_value": "手工点码数",
+    "system_value": "系统点码数",
+    "gap": "差距"
+  },
+  "check_inc_dec_log": {
+    "title": "增减码明细",
+    "type": "类型",
+    "number": "金额"
+  },
+  "close": {
+    "title": "收码明细",
+    "close_time": "收码时间",
+    "work_no": "收码人",
+    "sm_number": "收码数",
+    "gap": "收码差距",
+    "chip_inc": "增码",
+    "chip_dec": "减码",
+    "inc_dec_count": "增减码数",
+    "code_washing": "洗码量",
+    "code_washing_fee": "洗码费",
+    "label_bind_close": "收码数是否算入增减码",
+    "btn_check_detail": "点码详情"
+  },
+  "search_box": {
+    "title": "搜索栏",
+    "is_code_washing": "是否开启洗码费",
+    "is_shares": "占股/返点",
+    "is_exclude_close": "已收码注单",
+    "is_user_income_settlement": "会员收益",
+    "include_cost": "包含支出费用"
+  },
+  "table_col": {
+    "title": "表格字段",
+    "date": "日期",
+    "nickname": "昵称",
+    "total_amount": "总压",
+    "total_rake": "抽水",
+    "total_code_washing": "洗码量",
+    "total_code_washing_fee": "洗码费",
+    "total_bet_profit_loss": "注单盈亏",
+    "total_code_washing_profit_loss": "洗码费+注单",
+    "total_cost": "支出费用",
+    "total_code_washing_profit_loss_cost": "洗码费+注单+支出费用",
+    "total_user_profit_loss": "会员收益(占股/返点)",
+    "total_company_profit_loss": "公司收益(占股/返点)",
+    "total_bonus_profit_loss": "彩金盈亏",
+    "total_net_earning": "净收益",
+    "total_shareholder_net_earning": "归股东净收益",
+    "total_company_net_earning": "归公司净收益"
+  },
+  "table": {
+    "title": "表格",
+    "title_user": "台面会员盈亏"
+  },
+  "user": {
+    "title": "会员盈亏",
+    "agent_top": "一级代理",
+    "back": "回退",
+    "btn_settler": "会员结算",
+    "btn_detail": "查看详情",
+    "tips_level_top_settler": "只有一级代理可进行会员结算",
+    "tips_is_user_income_settlement_settler": "请点击【会员收益】筛选条件，选择【否】，并点击查询",
+    "tips_no_close": "未收码数据不可结算，今日收码时间筛选未收码数据",
+    "tips_confirm_settler": "确认结算会员【{username}】在{start}至{end}时间段内的收益",
+    "tips_confirm_print": "结算成功，直接打印小票",
+    "tips_confirm_settler_simple": "确认结算会员收益",
+    "count": "合计",
+    "person": "共{num}人",
+    "title_bet": "会员注单详情",
+    "btn_expand_open": "下级",
+    "btn_expand_close": "下级",
+    "btn_expand_currency_open": "币种",
+    "btn_expand_currency_close": "币种",
+    "btn_expand_currency_self_tips": "查看自身"
+  },
+  "user_settler_log": {
+    "title": "会员结算明细{suffix}",
+    "date": "日期",
+    "total_amount": "总压",
+    "total_bet_profit_loss": "注单盈亏",
+    "total_code_washing": "洗码量",
+    "total_code_washing_fee": "洗码费",
+    "total_user_profit_loss": "会员收益",
+    "total_user_profit_loss_print": "会员净收益",
+    "sign": "签名",
+    "settle_time": "结算时间",
+    "btn_print": "打印小票",
+    "title_print": "会员结算单",
+    "tips_print_footer": "欢迎再次光临"
+  }
+}

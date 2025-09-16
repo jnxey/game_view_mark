@@ -1,0 +1,355 @@
+body {
+  background-color: var(--el-bg-color);
+  color: var(--el-text-color-primary);
+}
+
+// message
+.el-message .el-message__content {
+  color: var(--el-primary-text-color);
+}
+
+.el-message .el-message-icon--warning,
+.el-message .el-message-icon--success,
+.el-message .el-message-icon--error,
+.el-message .el-message-icon--info,
+{
+  font-size: 24px;
+  color: var(--el-primary-text-color);
+}
+
+.el-message.el-message--warning {
+  padding: 10px 14px;
+  border-color: var(--el-color-warning);
+  background-color: var(--el-color-warning);
+}
+
+.el-message.el-message--success {
+  padding: 10px 14px;
+  border-color: var(--el-color-success);
+  background-color: var(--el-color-success);
+}
+
+.el-message.el-message--error {
+  padding: 10px 14px;
+  border-color: var(--el-color-danger);
+  background-color: var(--el-color-danger);
+}
+
+.el-message.el-message--info {
+  padding: 10px 14px;
+  border-color: var(--el-color-info-dark-2);
+  background-color: var(--el-color-info-dark-2);
+}
+
+// loading
+.gv-loading {
+  &.el-loading-mask {
+    background-color: transparent;
+  }
+
+  &.gv-loading-empty .el-loading-spinner {
+    padding-top: 22px;
+  }
+
+  .el-loading-spinner {
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 10px;
+    border-radius: var(--el-border-radius-base);
+    background-color: var(--el-color-white);
+    box-shadow: 3px 5px 15px 0 rgba(0, 0, 0, 0.1);
+
+    .path {
+      stroke-width: 4px;
+    }
+  }
+}
+
+// loading
+.el-input-number .el-input__inner {
+  text-align: left;
+}
+
+.el-input-number.center .el-input__inner {
+  text-align: center;
+}
+
+// dialog
+.el-dialog {
+  padding: 0;
+  border-radius: var(--gv-border-radius-big);
+  overflow: hidden;
+
+  .el-dialog__header {
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border-bottom: 1px solid var(--el-border-color);
+  }
+
+  .el-dialog__headerbtn {
+    width: 48px;
+    height: 48px;
+
+    &:hover {
+      background-color: var(--el-color-primary-light-9);
+    }
+
+    .el-icon {
+      font-size: 26px;
+    }
+  }
+
+  .el-dialog__body {
+    padding: 0 16px;
+  }
+
+  .el-dialog__footer {
+    padding: 16px;
+
+    .el-button {
+      min-width: 100px;
+    }
+  }
+}
+
+// message-box
+.el-message-box {
+  border-radius: 14px;
+
+  .el-message-box__close {
+    font-size: 20px;
+  }
+
+  .el-message-box__btns {
+    --el-messagebox-padding-primary: 20px;
+
+    .el-button {
+      min-width: 80px;
+    }
+  }
+
+  .el-message-box__input {
+    .el-input {
+      --el-input-inner-height: calc(var(--el-input-height, 40px) - 2px);
+      --el-input-height: var(--el-component-size-large);
+      font-size: 14px;
+
+      .el-input__wrapper {
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+// form-item
+.el-form.el-form--label-right .el-form-item .el-form-item__label {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 8px;
+  line-height: 1.1;
+
+  &::before {
+    display: block;
+    height: 0;
+    margin-left: -12px;
+  }
+}
+
+.zh-CN {
+  .el-form.el-form--label-right .el-form-item .el-form-item__label {
+    text-align: justify;
+    text-align-last: justify;
+  }
+}
+
+// input placeholder
+.placeholder-dom {
+  position: absolute;
+  top: -8px;
+  left: 10px;
+  font-size: 12px;
+  z-index: 10;
+  line-height: 1;
+  background-color: var(--el-bg-color);
+  color: var(--el-text-color-placeholder);
+  animation: placeholder-in linear 0.3s;
+
+  &.remove {
+    top: 6px;
+    font-size: 14px;
+    animation: placeholder-out linear 0.3s;
+  }
+}
+
+.placeholder-far {
+  .placeholder-dom {
+    top: -15px;
+    animation: placeholder-in-far linear 0.3s;
+
+    &.remove {
+      animation: placeholder-out-far linear 0.3s;
+    }
+  }
+}
+
+@keyframes placeholder-in {
+  from {
+    top: 6px;
+    font-size: 14px;
+  }
+  to {
+    top: -8px;
+    font-size: 12px;
+  }
+}
+
+@keyframes placeholder-out {
+  from {
+    top: -8px;
+    font-size: 12px;
+  }
+  to {
+    top: 6px;
+    font-size: 14px;
+  }
+}
+
+@keyframes placeholder-in-far {
+  from {
+    top: 6px;
+    font-size: 14px;
+  }
+  to {
+    top: -15px;
+    font-size: 12px;
+  }
+}
+
+@keyframes placeholder-out-far {
+  from {
+    top: -15px;
+    font-size: 12px;
+  }
+  to {
+    top: 6px;
+    font-size: 14px;
+  }
+}
+
+// check-box
+.el-checkbox.custom-checkbox {
+  position: relative;
+  padding: 0 12px;
+  margin-right: 15px;
+  border-radius: 16px;
+  background-color: var(--el-fill-color);
+
+  .el-checkbox__input {
+    display: none;
+  }
+
+  .el-checkbox__label {
+    padding-left: 0;
+
+    & > span {
+      vertical-align: middle;
+    }
+  }
+
+  &.is-checked {
+    padding-right: 25px;
+    background-color: var(--el-color-primary);
+
+    .el-checkbox__label {
+      color: var(--el-primary-text-color);
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 8px;
+      width: 7px;
+      height: 3px;
+      margin-top: -2px;
+      border: 1.5px solid var(--el-primary-text-color);
+      border-right: 0;
+      border-top: 0;
+      transform: rotate(-45deg);
+      transform-origin: center;
+      z-index: 10;
+    }
+  }
+
+  &.hide-selected-icon.is-checked {
+    padding-right: 12px;
+
+    &:after {
+      display: none;
+    }
+  }
+}
+
+// radio
+.el-radio.custom-radio {
+  position: relative;
+  padding: 0 12px;
+  margin-right: 15px;
+  border-radius: 16px;
+  border: 4px solid var(--el-fill-color);
+  background-color: var(--el-fill-color);
+
+  .el-radio__input {
+    display: none;
+  }
+
+  .el-radio__label {
+    padding-left: 0;
+
+    & > span {
+      vertical-align: middle;
+    }
+  }
+
+  &.is-checked {
+    border-color: var(--el-color-primary-light-9);
+    background-color: var(--el-color-primary);
+
+    .el-radio__label {
+      color: var(--el-primary-text-color);
+    }
+  }
+}
+
+// 滚动条
+.el-scrollbar__bar.is-horizontal {
+  height: 8px;
+}
+
+.el-scrollbar__bar.is-vertical {
+  width: 8px;
+}
+
+// el-select
+.el-input .el-input__suffix .el-input__clear, .el-select .el-select__suffix .el-select__clear, .el-date-editor .el-input__suffix .clear-icon {
+  color: var(--el-color-primary);
+}
+
+// el-divider
+.el-divider--horizontal.size-small {
+  margin: 8px 0;
+}
+
+.el-divider--vertical.size-small {
+  margin: 0 8px;
+}

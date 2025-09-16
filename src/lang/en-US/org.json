@@ -1,0 +1,31 @@
+{
+  "title": "Organization",
+  "department": {
+    "title": "Department",
+    "name": "Department name",
+    "parent": "Superior department",
+    "leader": "Person in charge",
+    "mobile": "Contact number",
+    "status": "Department status",
+    "placeholder_name": "Please enter the department name",
+    "placeholder_parent": "Please select the superior department",
+    "placeholder_leader": "Please enter the name of the person in charge",
+    "placeholder_mobile": "Please enter the contact number",
+    "field_check_name": "Please enter the department name",
+    "field_check_parent": "Please select the superior department",
+    "field_check_mobile": "Please enter the contact number",
+    "title_add": "Add a new department",
+    "title_edit": "Edit department"
+  },
+  "job": {
+    "title": "Job",
+    "code": "Job code",
+    "name": "Job name",
+    "placeholder_name": "Please enter the job name",
+    "placeholder_code": "Please enter the job code",
+    "field_check_name": "Please enter the job name",
+    "field_check_code": "Please enter the job code",
+    "title_add": "Add a new job",
+    "title_edit": "Edit a job"
+  }
+}
